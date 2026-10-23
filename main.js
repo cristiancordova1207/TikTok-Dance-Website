@@ -17,7 +17,7 @@ $('#lang').onchange = (e) => { lang = e.target.value; store.set('rd-lang', lang)
 
 // ---------- héroe: escenarios que cambian + chat de TikTok de mentira ----------
 const shots = [...document.querySelectorAll('#shot img')];
-const sceneNames = ['🪩 Fiesta', '🏖️ Playa', '🌌 Galaxia', '🌳 Parque', '🍭 Dulces'];
+const sceneNames = ['🪩 Fiesta', '🏖️ Playa', '🌌 Galaxia', '🌳 Parque', '🍭 Dulces', '🌃 Ciudad', '⛄ Nieve'];
 let si = 0;
 setInterval(() => {
   shots[si].classList.remove('on');
